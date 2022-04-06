@@ -2,22 +2,31 @@
 
 Practica Powershell. Sistemas informáticos  
 
-## Script 1
+## **Script 1**
 
-```powershell
-$number = 1
+Para comprender el funcionamiento del siguiente script vamos a añadir varios puntos de interupcion como se muestra a continuación: 
 
-Write-Host "The number is: " $number
+![Ejercicio 1.1](imagenes/ej11.png)
 
-$number = 2
+*(Los puntos rojos son los puntos de interrupción.)*
 
-Write-Host "The number is: " $number
+Conforme vayamos ejecutando el script, a una variable `$number` se le asigna el valor 1; luego se escribe en la pantalla mediante el cmdlet `Write-Host`. Luego, a la variable `$number` se le asigna el siguiente número en la secuencia y se muestra en la pantalla nuevamente, y esto se repite varias veces. 
 
-$number = 3
+A continuación se muesttra la ejecución del script:
 
-Write-Host "The number is: " $number
+![Ejercicio 1.2](imagenes/ej12.gif)
 
-$number = 4
+---
 
-Write-Host "The number is: " $number
-```
+## **Script 2**
+
+Añadimos los siguientes puntos de interrupción para ver el funcionamiento del siguiente script:
+
+![Ejercicio 2.1](imagenes/ej21.png)
+
+Y observamos la ejecucion del script: 
+
+![Ejercicio 2.2](imagenes/ej22.gif)
+
+---
+
