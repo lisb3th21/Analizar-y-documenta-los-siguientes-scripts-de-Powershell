@@ -114,13 +114,13 @@ if ("HELLO" -notlike "BYE") {
 # -match	Results in true when a string matches a regex pattern. In its simplest form it can be used to check if a word or character exists in a string. Its well worth reading more on regex patterns as we wont be using many of these in the exapmples in this book.	
 if ("HELLO" -match "H") {
     #H exists in the 
-    string "HELLO"
+     "HELLO"
 }
    
 # -notmatch	Results in true when a string doesn't match a regex pattern.	
 if ("HELLO" -notmatch "A") {
     #A does not match in the 
-    string "HELLO"
+     "HELLO"
 }
 
 # -contains	Results in true when a value is found within another collection.
@@ -188,8 +188,6 @@ switch ($favouriteColour) {
  
     default { "I dont recognise that colour" }
 }
-
-
 
 
 
