@@ -30,3 +30,36 @@ Y observamos la ejecucion del script:
 
 ---
 
+## **Script 3**
+
+El Script 3 tiene unos cuantos errores: 
+
+```powershell
+if ("HELLO" -match "H") {
+
+    string "HELLO"
+}
+
+if ("HELLO" -notmatch "A") {
+    string "HELLO"
+}
+```
+
+`String` no se reconoce como nombre de la cmdlet. Dejando el código de la siguiente forma se podrá solucionar: 
+
+```powershell
+if ("HELLO" -match "H") {
+    #H exists in the 
+     "HELLO"
+}
+   
+# -notmatch	Results in true when a string doesn't match a regex pattern.	
+if ("HELLO" -notmatch "A") {
+    #A does not match in the 
+     "HELLO"
+}
+```
+
+Así la ejecución del programa quedará de la siguiente forma: 
+
+![Ejercicio 3](imagenes/ej3.gif)
